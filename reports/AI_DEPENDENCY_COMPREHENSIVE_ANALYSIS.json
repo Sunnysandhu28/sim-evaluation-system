@@ -1,0 +1,135 @@
+{
+  "ai_dependency_analysis_report": {
+    "generation_timestamp": "2025-06-06T09:05:26.134497",
+    "analysis_date": "2025-06-06",
+    "environments_analyzed": [
+      "local",
+      "app_engine",
+      "cloud_run"
+    ],
+    "analysis_status": "completed_successfully"
+  },
+  "daily_independence_summary": {
+    "overall_independence_score": 0.9472,
+    "environment_scores": {
+      "local": 0.9513,
+      "app_engine": 0.9378,
+      "cloud_run": 0.9528
+    },
+    "api_usage_efficiency": 0.9787,
+    "autonomous_capability_strength": 0.9473,
+    "code_authenticity_level": 0.9167,
+    "independence_trend": "highly_autonomous"
+  },
+  "environment_detailed_analysis": {
+    "local": {
+      "environment": "local",
+      "api_usage_analysis": {
+        "openai_calls": 1,
+        "anthropic_calls": 1,
+        "total_external_calls": 2,
+        "autonomous_events": 140,
+        "ai_independence_ratio": 0.9859,
+        "external_dependency_percentage": 1.41
+      },
+      "code_generation_analysis": {
+        "total_code_lines": 24,
+        "ai_assisted_lines": 2,
+        "autonomous_lines": 7,
+        "code_authenticity_ratio": 0.2917,
+        "external_dependency_ratio": 0.0833,
+        "autonomous_percentage": 0.9167
+      },
+      "estimated_api_cost": 0.045,
+      "processing_efficiency": 1.0,
+      "independence_assessment": {
+        "overall_independence": 0.9513,
+        "api_dependency_level": "low",
+        "code_authenticity_level": "high"
+      }
+    },
+    "app_engine": {
+      "environment": "app_engine",
+      "api_usage_analysis": {
+        "openai_calls": 3,
+        "anthropic_calls": 3,
+        "total_external_calls": 6,
+        "autonomous_events": 140,
+        "ai_independence_ratio": 0.9589,
+        "external_dependency_percentage": 4.11
+      },
+      "code_generation_analysis": {
+        "total_code_lines": 24,
+        "ai_assisted_lines": 2,
+        "autonomous_lines": 7,
+        "code_authenticity_ratio": 0.2917,
+        "external_dependency_ratio": 0.0833,
+        "autonomous_percentage": 0.9167
+      },
+      "estimated_api_cost": 0.135,
+      "processing_efficiency": 1.0,
+      "independence_assessment": {
+        "overall_independence": 0.9378,
+        "api_dependency_level": "low",
+        "code_authenticity_level": "high"
+      }
+    },
+    "cloud_run": {
+      "environment": "cloud_run",
+      "api_usage_analysis": {
+        "openai_calls": 1,
+        "anthropic_calls": 1,
+        "total_external_calls": 2,
+        "autonomous_events": 180,
+        "ai_independence_ratio": 0.989,
+        "external_dependency_percentage": 1.1
+      },
+      "code_generation_analysis": {
+        "total_code_lines": 24,
+        "ai_assisted_lines": 2,
+        "autonomous_lines": 7,
+        "code_authenticity_ratio": 0.2917,
+        "external_dependency_ratio": 0.0833,
+        "autonomous_percentage": 0.9167
+      },
+      "estimated_api_cost": 0.045,
+      "processing_efficiency": 1.0,
+      "independence_assessment": {
+        "overall_independence": 0.9528,
+        "api_dependency_level": "low",
+        "code_authenticity_level": "high"
+      }
+    }
+  },
+  "key_independence_metrics": {
+    "overall_autonomy_level": "highly_autonomous",
+    "api_dependency_assessment": "low_dependency",
+    "code_authenticity_strength": "high",
+    "autonomous_processing_dominance": "94.7%"
+  },
+  "api_usage_insights": {
+    "most_independent_environment": "cloud_run",
+    "total_estimated_api_costs": 0.22499999999999998,
+    "processing_efficiency_average": 1.0,
+    "autonomous_vs_external_ratio": "97.9% autonomous"
+  },
+  "code_generation_insights": {
+    "authenticity_breakdown": {
+      "local": 0.9167,
+      "app_engine": 0.9167,
+      "cloud_run": 0.9167
+    },
+    "ai_assistance_levels": {
+      "local": 0.0833,
+      "app_engine": 0.0833,
+      "cloud_run": 0.0833
+    },
+    "overall_code_independence": "91.7%"
+  },
+  "recommendations": {
+    "independence_enhancement": "Continue developing autonomous processing capabilities",
+    "api_optimization": "Maintain efficient API usage for complex tasks only",
+    "code_authenticity": "Strengthen autonomous code generation capabilities",
+    "cost_management": "Monitor API costs and optimize usage patterns"
+  }
+}
